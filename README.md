@@ -43,3 +43,18 @@ python kv_store.py
 If one sees this assignment from a cloud engineer’s perspective there is a lot that can be changed and improved. The type of instance chosen can be more efficient in terms of cost and CPU utilization, which is turn will directly impact the performance of the program. Owing to a limited knowledge about the types of instances on GCP, it was difficult to predict, which VM Instance would have worked the best in this case, thus this assignment is based on the basic instance, as mentioned above. Map-Reduce as a framework, could have been made more interactive, for example a webpage, that takes all the inputs and then performs computations in the background and comes back
 with a response in less than 10-15 seconds.
 Though, there’s a massive improvement in the computation strength of the framework from last time, but I still see an opportunity to make it better, in terms of the running time and space utilization. As mentioned earlier, a bunch of other functions that map-reduce i capable of running can be implemented in the current program.
+
+#### List of Files
+1. Log Files (Folder- logs)
+gcp_generated_logs.pdf | operations_list.txt
+3. List of Disks (Folder- resources)
+4. Code - master.py | kv_store.py | mapper.py | reducer.py
+5. Config Files - config.txt | book1.txt | book2.txt
+
+#### How to run the code?
+
+ssh into the google cloud instance (or any VM/local)
+
+python3 master.py
+
+Disclaimer: IP Addresses are hardcoded in the code, which will require certain changes, depending on the environment. 

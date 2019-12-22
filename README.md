@@ -1,4 +1,4 @@
-# Distributed Map Reduce System on Google Cloud
+# Distributed Map Reduce System From Scratch on Google Cloud
 #### This was implemented under the valuable guidance of Prof Prateek Sharma at Indiana University in B516 Engineering Cloud Computing during Fall 2019.
 
 ## Background

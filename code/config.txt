@@ -1,0 +1,9 @@
+Enter the following details
+
+Type of operation(wordcount/invertedindex): wordcount
+Master Server IP, HOST= 127.0.0.1 6969
+URL1: book.txt
+URL2 (incase of inverted index only): book2.txt
+Number of Mappers: 5
+Number of Reducers: 5
+
